@@ -7,12 +7,12 @@
 # print(squared)  # Output: [1, 4, 9, 16]
 
 
-# 2. odd number and even number 
+# # 2. odd number and even number 
 
-def is_even(number):
-    if number % 2 == 0:
-        print(number, "is Even!")
-    else:
-        print(number, "is Odd!")
+# def is_even(number):
+#     if number % 2 == 0:
+#         print(number, "is Even!")
+#     else:
+#         print(number, "is Odd!")
 
-is_even(6)
+# is_even(6)
