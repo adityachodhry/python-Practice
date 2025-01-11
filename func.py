@@ -11,8 +11,8 @@
 
 # def is_even(number):
 #     if number % 2 == 0:
-#         print(number, "is Even!")
+#         print(number, "is Even Number!")
 #     else:
-#         print(number, "is Odd!")
+#         print(number, "is Odd Number!")
 
 # is_even(6)
