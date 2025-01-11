@@ -9,10 +9,14 @@
 
 # # 2. odd number and even number 
 
-# def is_even(number):
-#     if number % 2 == 0:
-#         print(number, "is Even Number!")
-#     else:
-#         print(number, "is Odd Number!")
+def is_even(number):
+    if type(number) == int:
 
-# is_even(6)
+        if number % 2 == 0:
+            print(number, "is Even Number!")
+        else:
+            print(number, "is Odd Number!")
+    else:
+        print("Don't Allowed String..")
+
+is_even(6)
