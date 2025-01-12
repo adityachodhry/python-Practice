@@ -1,7 +1,6 @@
 # Python program to demonstrate
 # hybrid inheritance
 
-
 class School:
 	def func1(self):
 		print("This function is in school.")
