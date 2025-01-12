@@ -6,7 +6,6 @@
 # squared = list(map(lambda x: x ** 2, nums))
 # print(squared)  # Output: [1, 4, 9, 16]
 
-
 # # 2. odd number and even number 
 
 # def is_even(number):
