@@ -14,4 +14,4 @@ if number > 999 and number < 10000:
     reversed_number = reverse_number(number)
     is_reverse = check_reverse(number)
     print("Reversed number:", reversed_number)
-    print("Is the reverse true?", is_reverse)    
+    print("Is the reverse true?", is_reverse)   
