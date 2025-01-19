@@ -17,6 +17,7 @@
 #     print("Is the reverse true?", is_reverse)   
 
 
+
 # # Write a program that will tell whether the number entered by the user is odd or even.
 
 # number = int(input("Enter a number: "))
@@ -25,6 +26,7 @@
 #         print(number, "is Even Number!")
 #     else:
 #         print(number, "is Odd Number!")
+
 
 
 # Write a program that will tell whether the given year is a leap year or not.
