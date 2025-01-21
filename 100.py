@@ -28,6 +28,7 @@
 #         print(number, "is Odd Number!")
 
 
+
 # Write a program that will tell whether the given year is a leap year or not.
 
 year = int(input("Enter a year: "))
