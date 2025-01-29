@@ -23,4 +23,3 @@ student2 = Student("Jane Smith", 17)
 student1.display_student_info()
 student2.display_student_info()
 
-
