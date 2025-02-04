@@ -42,11 +42,11 @@
 
 # # Find the sum of all elements in the list
 
-ls = [1,2,3]
+# ls = [1,2,3]
 
-x = 0 
+# x = 0 
 
-for i in ls:
-    x += i
+# for i in ls:
+#     x += i
 
-print(x)
+# print(x)
