@@ -78,12 +78,46 @@
 # print(swap_number)
 
 
-# Sum of the given three number 
+# # Sum of the given three number 
 
-num = 3, 5, 5
+# num = 3, 5, 5
 
-x = 0 
+# x = 0 
 
-for i in num:
-    x += i
-print(x)
+# for i in num:
+#     x += i
+# print(x)
+
+
+# # Write a program that will reverse a four digit number.Also it checks whether the reverse is true.
+
+# num = 4,5,3,2,7,8,9
+
+# revrs = num[::-1]
+
+# if revrs != num:
+#     print("True")
+#     print(revrs)
+# else:
+#     print("False")
+
+
+# # Write a program that will tell whether the number entered by the user is odd or even.
+
+# num = int(input("Enter number: "))
+
+# if num % 2 == 0:
+#     print(f"{num} is Even Number")
+# else:
+#     print(f"{num} is Odd Number")
+
+
+
+# Write a program that will tell whether the number entered by the user is prime or not.
+
+num = int(input("Enter number: "))
+
+if num <= 1:
+    print(f"{num} is not prime number..")
+else:
+    print(f"{num} is prime number..")
