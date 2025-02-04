@@ -70,9 +70,20 @@
 
 # # Take the two number from user and swap to each other 
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
 
-swap_number = num1, num2, num2, num1
+# swap_number = num1, num2, num2, num1
 
-print(swap_number)
+# print(swap_number)
+
+
+# Sum of the given three number 
+
+num = 3, 5, 5
+
+x = 0 
+
+for i in num:
+    x += i
+print(x)
