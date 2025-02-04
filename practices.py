@@ -37,7 +37,7 @@
 # x = 1
 
 # for i in ls:
-#     x += i
+#     x *= i
 # print(x)
 
 # # Find the sum of all elements in the list
