@@ -113,11 +113,11 @@
 
 
 
-# Write a program that will tell whether the number entered by the user is prime or not.
+# # Write a program that will tell whether the number entered by the user is prime or not.
 
-num = int(input("Enter number: "))
+# num = int(input("Enter number: "))
 
-if num <= 1:
-    print(f"{num} is not prime number..")
-else:
-    print(f"{num} is prime number..")
+# if num <= 1:
+#     print(f"{num} is not prime number..")
+# else:
+#     print(f"{num} is prime number..")
