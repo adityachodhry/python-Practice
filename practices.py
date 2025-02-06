@@ -123,16 +123,16 @@
 #     print(f"{num} is prime number..")
 
 
-# Write a program that will take user input of cost price and selling price and determines whether its a loss or a profit.
+# # Write a program that will take user input of cost price and selling price and determines whether its a loss or a profit.
 
-cost_price = float(input("Enter the cost price: "))
-selling_price = float(input("Enter the selling price: "))
+# cost_price = float(input("Enter the cost price: "))
+# selling_price = float(input("Enter the selling price: "))
 
-if selling_price > cost_price:
-    profit = selling_price - cost_price
-    print(f"You made a profit of {profit:.2f}")
-elif selling_price < cost_price:
-    loss = cost_price - selling_price
-    print(f"You incurred a loss of {loss:.2f}")
-else:
-    print("No profit, no loss. You broke even.")
+# if selling_price > cost_price:
+#     profit = selling_price - cost_price
+#     print(f"You made a profit of {profit:.2f}")
+# elif selling_price < cost_price:
+#     loss = cost_price - selling_price
+#     print(f"You incurred a loss of {loss:.2f}")
+# else:
+#     print("No profit, no loss. You broke even.")
