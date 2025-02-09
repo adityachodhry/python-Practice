@@ -136,3 +136,15 @@
 #     print(f"You incurred a loss of {loss:.2f}")
 # else:
 #     print("No profit, no loss. You broke even.")
+
+
+import pandas as pd
+
+data = [['John', 25, 'Austin',70],
+        ['Cataline', 30, 'San Francisco',80],
+        ['Matt', 35, 'Boston',90]]
+
+columns = ['Name', 'Age', 'City', 'Marks']
+
+df = pd.DataFrame(data, columns=columns)
+print(df)
