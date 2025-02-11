@@ -48,4 +48,3 @@ class Teacher(Student):
 
 s2 = Teacher("Tushar", "Jha", 90, "A")
 print(s2)
-
