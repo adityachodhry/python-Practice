@@ -51,3 +51,13 @@ class Student:
 
 
 
+class Parent:
+    def __init__(self, color):
+        self.color = color # Parent class attribute
+
+class Child(Parent):
+    pass  # No explicit method or attribute, but it inherits from Parent
+
+# Creating an object of the Child class
+c = Child("Blue")
+print(c.color)  # Accessing Parent's attribute
