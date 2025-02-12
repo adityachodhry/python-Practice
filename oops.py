@@ -34,17 +34,18 @@ class Student:
     # def __str__(self):
     #     return f"Student Name: {self.first_name} {self.last_name}"
 
-class Teacher(Student):
-    def __init__(self, first_name, last_name, s_marks, s_section):
-        super().__init__(first_name, last_name)
-        self.s_marks = s_marks
-        self.s_section = s_section
+# class Teacher(Student):
+#     def __init__(self, first_name, last_name, s_marks, s_section):
+#         super().__init__(first_name, last_name)
+#         self.s_marks = s_marks
+#         self.s_section = s_section
     
-    def __str__(self):
-        return f"Student Name: {self.first_name} {self.last_name}, marks: {self.s_marks}, section: {self.s_section}"
+#     def __str__(self):
+#         return f"Student Name: {self.first_name} {self.last_name}, marks: {self.s_marks}, section: {self.s_section}"
     
-# s1 = Student("Aditya", "Choudhary")
-# print(s1)
+# # s1 = Student("Aditya", "Choudhary")
+# # print(s1)
 
-s2 = Teacher("Tushar", "Jha", 90, "A")
-print(s2)
+# s2 = Teacher("Tushar", "Jha", 90, "A")
+# print(s2)
+
