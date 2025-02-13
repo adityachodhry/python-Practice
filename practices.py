@@ -138,17 +138,20 @@
 #     print("No profit, no loss. You broke even.")
 
 
-import pandas as pd
+# import pandas as pd
 
-data = [['John', 50, 'Male', 'Austin', 70],
-        ['Cataline', 45 ,'Female', 'San Francisco', 80],
-        ['Matt', 30 ,'Male','Boston', 95]]
+# data = [['John', 50, 'Male', 'Austin', 70],
+#         ['Cataline', 45 ,'Female', 'San Francisco', 80],
+#         ['Matt', 30 ,'Male','Boston', 95]]
 
-# Column labels of the DataFrame
-columns = ['Name','Age','Sex', 'City', 'Marks']
+# # Column labels of the DataFrame
+# columns = ['Name','Age','Sex', 'City', 'Marks']
 
-# Create a DataFrame df
-df = pd.DataFrame(data, columns=columns)
+# # Create a DataFrame df
+# df = pd.DataFrame(data, columns=columns)
 
-df['Sex'].value_counts()
-print(df)
+# df['Sex'].value_counts()
+# print(df)
+
+
+
