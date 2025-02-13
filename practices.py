@@ -165,3 +165,5 @@ data_plot = {
 df = pd.DataFrame(data_plot)
 
 df(x = "Sale", y = "Year", kind = 'line', color = 'y')
+
+plt.show()
