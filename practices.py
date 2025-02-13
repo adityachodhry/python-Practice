@@ -138,17 +138,12 @@
 #     print("No profit, no loss. You broke even.")
 
 
-# import pandas as pd
+# ls = [1,2,3,4,5,6,7,8]
 
-# data = [['John', 50, 'Male', 'Austin', 70],
-#         ['Cataline', 45 ,'Female', 'San Francisco', 80],
-#         ['Matt', 30 ,'Male','Boston', 95]]
+# max_value = ls[0]
 
-# # Column labels of the DataFrame
-# columns = ['Name','Age','Sex', 'City', 'Marks']
+# for i in ls:
+#     if i > max_value:
+#         max_value = i
 
-# # Create a DataFrame df
-# df = pd.DataFrame(data, columns=columns)
-
-# df['Sex'].value_counts()
-# print(df)
+# print(max_value)
