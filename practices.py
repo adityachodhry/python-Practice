@@ -154,4 +154,14 @@
 # print(df)
 
 
+import pandas as pd
+import matplotlib.pyplot as plt
 
+data_plot = {
+    "Year": [2010, 2012, 2014, 2015, 2016, 2018, 2020, 2022, 2024, 2026],
+    "Sale": [100, 200, 300, 1000, 1500, 400, 600, 500, 1000, 900]
+}
+
+df = pd.DataFrame(data_plot)
+
+df(x = "Sale", y = "Year", kind = 'line', color = 'y')
