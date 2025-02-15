@@ -149,11 +149,3 @@
 # print(max_value)
 
 
-from langchain.llms import OpenAI
-
-llm = OpenAI(model="text-davinci-003")
-prompt = "Get all employees earning more than $5000 per month"
-query = f"Convert this to SQL: {prompt}"
-
-response = llm(query)
-print(response)
