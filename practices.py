@@ -151,8 +151,3 @@
 
 x = 10
 y = 20
-
-if x == 10:
-    print(x)
-else:
-    print(y)
