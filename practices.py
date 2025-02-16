@@ -149,5 +149,3 @@
 # print(max_value)
 
 
-x = 10
-y = 20
