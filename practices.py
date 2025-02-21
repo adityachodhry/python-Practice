@@ -147,3 +147,10 @@
 #         max_value = i
 
 # print(max_value)
+
+
+ls = [1,3,4,5,6,'3','5',8,'9']
+
+final_list = list(map(int, ls))
+print(final_list)
+
