@@ -159,3 +159,6 @@ print(find_str)
 
 final_list = list(map(int, ls))
 print(final_list)
+
+unique_sorted_list = sorted(set(final_list))
+print(unique_sorted_list)
