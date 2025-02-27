@@ -87,4 +87,3 @@ SET sub_name = 'Biology'
 WHERE s_section = 'B';
 
 
-
