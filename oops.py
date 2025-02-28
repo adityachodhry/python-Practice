@@ -51,7 +51,6 @@ class Student:
 
 
 
-
 # class Parent:
 #     def __init__(self, color):
 #         self.color = color # Parent class attribute
