@@ -61,4 +61,3 @@ class Student:
 # # Creating an object of the Child class
 # c = Child("Blue")
 # print(c.color)  # Accessing Parent's attribute
-
