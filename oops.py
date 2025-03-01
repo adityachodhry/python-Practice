@@ -50,7 +50,6 @@ class Student:
 # print(s2)
 
 
-
 # class Parent:
 #     def __init__(self, color):
 #         self.color = color # Parent class attribute
