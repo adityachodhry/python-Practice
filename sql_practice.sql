@@ -88,6 +88,14 @@ WHERE s_section = 'B';
 
 
 SHOW databases;
-
 USE practice;
+
+SHOW TABLES;
+SELECT * FROM student;
+
+SELECT * FROM student WHERE s_marks > 70;
+
+UPDATE student
+SET s_section = 'D'
+WHERE s_name = 'Sneha';
 
