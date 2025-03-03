@@ -86,7 +86,6 @@ UPDATE student
 SET sub_name = 'Biology' 
 WHERE s_section = 'B';
 
-
 SHOW databases;
 USE practice;
 
