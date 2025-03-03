@@ -97,4 +97,3 @@ SELECT * FROM student WHERE s_marks > 70;
 UPDATE student
 SET s_section = 'D'
 WHERE s_name = 'Sneha';
-
