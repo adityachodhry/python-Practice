@@ -30,31 +30,39 @@ UPDATE student SET sub_name = 'Phy' WHERE s_id = 3;
 UPDATE student SET sub_name = 'Math' WHERE s_id = 4;
 UPDATE student SET sub_name = 'Chem' WHERE s_id = 5;
 
-SELECT s_id, sub_name FROM student;
+SELECT s_id, sub_name 
+FROM student;
 
 SELECT * FROM student;
 
-SELECT s_name, s_marks FROM student
+SELECT s_name, s_marks 
+FROM student
 WHERE s_marks >= 90;
 
-SELECT * FROM student
+SELECT * 
+FROM student
 WHERE s_section = "A";
 
-SELECT COUNT(*) FROM student
+SELECT COUNT(*) 
+FROM student
 WHERE s_section = "B";
 
-SELECT AVG(s_marks) FROM student;
+SELECT AVG(s_marks) 
+FROM student;
 SELECT AVG(s_marks) As avg_marks FROM student;
 
-SELECT s_id, s_name FROM student
+SELECT s_id, s_name 
+FROM student
 WHERE sub_name = "Math";
 
 SELECT * From student;
 
-SELECT * FROM student 
+SELECT * 
+FROM student 
 ORDER BY s_marks ASC;
 
-SELECT * FROM student 
+SELECT * 
+FROM student 
 ORDER BY s_marks DESC LIMIT 3;
 
 SELECT * 
