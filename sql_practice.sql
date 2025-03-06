@@ -77,20 +77,25 @@ SELECT *
 FROM student
 WHERE s_marks BETWEEN 80 AND 90;
 
-SELECT * FROM student 
+SELECT * 
+FROM student 
 WHERE s_name LIKE 'A%';
 
-SELECT sub_name, COUNT(*) AS total_num_of_student FROM student
+SELECT sub_name, COUNT(*) AS total_num_of_student 
+FROM student
 GROUP BY sub_name;
 
 SELECT s_id, s_name, s_marks, RANK() OVER (ORDER BY s_marks DESC) AS student_rank
 FROM student;
 
-SELECT * FROM student
-WHERE sub_name = (SELECT sub_name FROM student 
+SELECT * 
+FROM student
+WHERE sub_name = (SELECT sub_name 
+FROM student 
 WHERE s_name = 'Aditya');
 
-SELECT * FROM student;
+SELECT * 
+FROM student;
 SET SQL_SAFE_UPDATES = 0;
 
 UPDATE student 
@@ -103,7 +108,9 @@ USE practice;
 SHOW TABLES;
 SELECT * FROM student;
 
-SELECT * FROM student WHERE s_marks > 70;
+SELECT * 
+FROM student 
+WHERE s_marks > 70;
 
 UPDATE student
 SET s_section = 'D'
