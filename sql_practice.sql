@@ -57,13 +57,16 @@ ORDER BY s_marks ASC;
 SELECT * FROM student 
 ORDER BY s_marks DESC LIMIT 3;
 
-SELECT * FROM student
+SELECT * 
+FROM student
 WHERE s_marks = (SELECT MAX(s_marks) FROM student);
 
-SELECT s_section, COUNT(*) AS num_of_Student FROM Student
+SELECT s_section, COUNT(*) AS num_of_Student 
+FROM Student
 GROUP BY s_section;
 
-SELECT * FROM student
+SELECT * 
+FROM student
 WHERE s_marks BETWEEN 80 AND 90;
 
 SELECT * FROM student 
