@@ -97,3 +97,23 @@ SELECT * FROM student WHERE s_marks > 70;
 UPDATE student
 SET s_section = 'D'
 WHERE s_name = 'Sneha';
+
+SHOW DATABASES;
+USE practice;
+
+CREATE TABLE restaurants_list (
+	id INT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+SELECT * FROM restaurants_list;
+
+CREATE TABLE menu_items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price INT NOT NULL,
+    rating FLOAT NULL,
+    rating_count INT NULL
+);
+
+SELECT * FROM menu_items;
