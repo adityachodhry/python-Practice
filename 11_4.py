@@ -1,7 +1,6 @@
 # Python program to demonstrate
 # Hierarchical inheritance
 
-
 # Base class
 class Parent:
 	def func1(self):

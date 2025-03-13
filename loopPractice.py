@@ -8,7 +8,7 @@
 # for a in range (1, 11):
 #     print(a)
 
- 
+
 name = str(input("Enter Your Name: "))
 age = int(input("Enter Your Age: "))
 

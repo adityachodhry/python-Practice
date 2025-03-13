@@ -1,7 +1,6 @@
 # Python program to demonstrate
 # multiple inheritance
 
-
 # Base class1
 class Mother:
 	mothername = ""
